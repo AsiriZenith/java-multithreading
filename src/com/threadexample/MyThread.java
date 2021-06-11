@@ -15,6 +15,9 @@ public class MyThread extends Thread {
             e.printStackTrace();
         }
         System.out.println("MyThread - END "+Thread.currentThread().getName());
+//        for (int i = 0; i <= 10; i++) {
+//            System.out.println("Child Thread : "+i);
+//        }
     }
     private void doDBProcessing() throws InterruptedException {
         Thread.sleep(5000);
